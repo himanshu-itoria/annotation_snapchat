@@ -35,6 +35,6 @@ workflows:
   runner-workflow:
     jobs:
       - runner-test
-        filters:
-            branches:
-              only: [runner-testing]
+          filters:
+              branches:
+                only: [runner-testing]
